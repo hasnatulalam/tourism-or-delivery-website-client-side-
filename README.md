@@ -1,6 +1,6 @@
 
 
-Live Website: https://alvi-tourism-explore.web.app
+Live Website: https://burj-al-arab-d409b.web.app
 
 
         About This Website
@@ -13,4 +13,4 @@ Live Website: https://alvi-tourism-explore.web.app
     6.. user can contact with us
     7.. user can Add a service here 
 
-    server side code: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Ataul-hamid
+    server side code: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-hasnatulalam
