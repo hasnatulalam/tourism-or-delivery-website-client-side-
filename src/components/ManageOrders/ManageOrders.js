@@ -7,8 +7,8 @@ const ManageOrders = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const url = `https://scary-goblin-67655.herokuapp.com/orders`;
-        // const url = `http://localhost:5000/orders`;
+        //const url = `https://scary-goblin-67655.herokuapp.com/orders`;
+         const url = `https://fathomless-forest-21585.herokuapp.com/orders`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -22,8 +22,8 @@ const ManageOrders = () => {
         const updatedorder = orders.find(order => order._id === id);
         updatedorder.status = 'approved';
 
-        const url = `https://scary-goblin-67655.herokuapp.com/approve/${id}`;
-        // const url = `http://localhost:5000/approve/${id}`;
+       // const url = `https://scary-goblin-67655.herokuapp.com/approve/${id}`;
+         const url = `https://fathomless-forest-21585.herokuapp.com/approve/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -45,8 +45,8 @@ const ManageOrders = () => {
 
     const handleCancelOrder = (id) => {
         console.log(id);
-        // const url = `http://localhost:5000/deleteOrder/${id}`
-        const url = `https://scary-goblin-67655.herokuapp.com/deleteOrder/${id}`
+        const url = `https://fathomless-forest-21585.herokuapp.com/deleteOrder/${id}`
+        //const url = `https://scary-goblin-67655.herokuapp.com/deleteOrder/${id}`
         fetch(url, {
             method: 'DELETE'
         })

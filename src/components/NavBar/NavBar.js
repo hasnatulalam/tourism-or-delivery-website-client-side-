@@ -9,7 +9,10 @@ const NavBar = () => {
         <div className='border-bottom'>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" fixed="top">
                 <Container className='py-1'>
-                    <Navbar.Brand className='fs-3 fw-bold text-dark ms-2' style={{ fontFamily: 'Charmonman' }}>Alvi Tourism</Navbar.Brand>
+                <div className="d-flex">
+                        <img src="https://i.ibb.co/fddSCHM/logo-sticky.png" style={{ height: '50px', width: '100px' }} alt="" />
+                      
+                    </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <nav className="ms-lg-5 me-auto">

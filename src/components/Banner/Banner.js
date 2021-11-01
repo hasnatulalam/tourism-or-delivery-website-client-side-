@@ -1,22 +1,49 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import './Banner.css'
 import img from '../../images/banner.png'
 
 const Banner = () => {
     return (
-        <div>
-            <div className='mb-5 position-relative text-center'>
-                <div>
-                    <img className='img-fluid w-100' src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
-                </div>
-                <div className='info text-light'>
-                    <p>ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!</p>
-                    <h1>Most Beautiful Place In Bangladesh</h1>
-                    <Button id='btn-get-started' variant='light' className='m-0 mt-lg-2 w-50 text-uppercase'>Take a tour</Button>
-                </div>
-            </div>
-        </div>
+        <div className="mb-5 h-75">
+        <Carousel>
+<Carousel.Item>
+<img
+  className="d-block w-100 h-50 "
+  src="https://i.ibb.co/2yKfL6b/home2jpg.jpg" 
+  alt="First slide"
+/>
+<Carousel.Caption>
+  <h3>First slide label</h3>
+  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+<img
+  className="d-block w-100 h-50"
+  src="https://i.ibb.co/FbF4mFV/banner2pg.jpg" 
+  alt="Second slide"
+/>
+
+<Carousel.Caption>
+  <h3>Second slide label</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+<img
+  className="d-block  w-100 h-50"
+  src="https://i.ibb.co/jvc2JdS/slider-4.jpg" 
+  alt="Third slide"
+/>
+
+<Carousel.Caption>
+  <h3>Third slide label</h3>
+  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+</Carousel.Caption>
+</Carousel.Item>
+</Carousel>
+    </div>
     );
 };
 

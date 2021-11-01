@@ -1,74 +1,52 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+
+import Card from 'react-bootstrap/Card'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Form'
+import Accordion from 'react-bootstrap/Accordion'
 
 const Contact = () => {
     return (
-        <div className="subComponent-lg bg-light" id="contactBody">
-            <Container>
-                <header className="headerTitle text-center">
-                    <h1>Contact</h1>
-                    <p>GET IN TOUCH WITH US</p>
-                </header>
-                <section className="svg-group text-center">
-                    <Row>
-                        <Col lg="4" md="4">
-                            <div className="svg-card-3">
-                                {/* <Phone width="50" height="55" strokeWidth="1" /> */}
-                                <p>0912 345 6789</p>
-                            </div>
-                        </Col>
-                        <Col lg="4" md="4">
-                            <div className="svg-card-3">
-                                {/* <MapPin width="55" height="55" strokeWidth="1" /> */}
-                                <p>Chittagong, Bangladesh</p>
-                            </div>
-                        </Col>
-                        <Col lg="4" md="4">
-                            <div className="svg-card-3">
-                                {/* <Mail width="55" height="55" strokeWidth="1" /> */}
-                                <p>alvitourism@gmail.com</p>
-                            </div>
-                        </Col>
-                    </Row>
-                </section>
-                <hr />
-                <br />
-                <section className="msg text-center">
-                    <form action="">
-                        <Row>
-                            <Col sm="6">
-                                <input
-                                    type="text"
-                                    name="Name"
-                                    id="reviewer-name"
-                                    placeholder="Your Name"
-                                    required
-                                />
-                                <br />
-                                <input
-                                    type="email"
-                                    name="Email"
-                                    id="reviewer-email"
-                                    placeholder="Your email"
-                                    required
-                                />
-                            </Col>
-                            <Col>
-                                <textarea
-                                    name="Message"
-                                    id="reviewer-message"
-                                    rows="4"
-                                    placeholder="Your Message"
-                                />
-                                <Button outline color="light" className="float-left">
-                                    Send Message
-                  </Button>
-                            </Col>
-                        </Row>
-                    </form>
-                </section>
-            </Container>
-        </div>
+          
+   <div className="container ">
+                
+                <div class="contact-image">
+                    <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+                </div>
+                <Form>
+    
+                <Form.Group className="mb-3" controlId="formBasicName">
+        <Form.Label>Name</Form.Label>
+        <Form.Control type="name" placeholder="Enter your Name" />
+      </Form.Group>      
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+    
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Password</Form.Label>
+        <Form.Control type="password" placeholder="Password" />
+      </Form.Group>
+      
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Comment</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <button className="btn btn-primary">Submit</button>
+    </Form>
+    </div>
+                  
+                
+                 
+                  
+                
+              
+
+
     );
 };
 

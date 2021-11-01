@@ -1,38 +1,60 @@
 [
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 1,
+      "name": "exotic-Maldives",
+      "Destination":"Maldives",
+
+      "price": "50000",
+      "description": "Many vacationers head to the Maldives solely to relax on the beach – and for good reason. The sugar white sand and striking blue water make for the perfect beach vacation backdrop. Most island resorts offer their own private stretches of sand, complete with lounge chairs and umbrellas. Some resorts that boast notably beautiful beaches",
+      "day":"3 day 2 night",
+     
+      "img": "https://i.ibb.co/3C4wPk4/exotic-maldives-jpg.jpg"
+     
+
   },
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 2,
+      "name": "Ha long Bay",
+      "Destination":"Vietnam",
+      "price": "70000",
+      "description": "Hạ Long Bay, in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests. Junk boat tours and sea kayak expeditions take visitors past islands named for their shapes, including Stone Dog and Teapot islets. The region is popular for scuba diving, rock climbing and hiking, particularly in mountainous Cát Bà National Park.",
+      "day":"4 day 3 night",
+      "img": "https://i.ibb.co/xJFZ6sf/beautiful-place-ha-long-bay.jpg"
   },
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 3,
+      "name": " Beautiful Dubai",
+      "Destination":"Dubai",
+      "price": "70000",
+      "description": "Dubai is one of the most beautiful cities in the world as a result there's an ample amount of traveler influx into the city. Dubai in UAE is known for its skyscrapers, night life, high end hotels",
+      "day":"3 day 2 night",
+      "img": "https://i.ibb.co/M5gcFRN/welcome-dubai.jpg"
   },
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 4,
+      "name": "Eiffel tower",
+      "Destination":"parries",
+      "price": "800000",
+      "description": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower",
+      "day":"3 day 2 night",
+      "img": "https://i.ibb.co/DKb2jzh/eiffel-towerview-jpg.jpg"
   },
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 5,
+      "name": "London sunset",
+      "Destination":"London",
+      "price": "50000",
+      "day":"3 day 2 night",
+      "description": "London's bridges and the Thames are some of the best places to see a beautiful London sunset. The Thames is quite a windy river particularly in the portion .",
+      "img": "https://i.ibb.co/jhcWVrq/panoramic-view-london-sunset-uk.jpg"
   },
   {
-    "img": "https://preview.colorlib.com/theme/suites/images/ximg_1.jpg.pagespeed.ic.1H3zXpM6hU.webp",
-    "name": "standard room",
-    "price": 100,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, et!"
+      "id": 6,
+      "name": "Naigara falls",
+      "Destination":"Canada",
+      "price": "60000",
+      "day":"3 day 2 night",
+      "description": "Niagara Falls, Ontario, is a Canadian city at the famous waterfalls of the same name, linked with the U.S. by the Rainbow Bridge. Its site on the Niagara River's western shore overlooks the Horseshoe Falls, the cascades' most expansive section. Elevators take visitors to a lower, wetter vantage poin",
+      "img": "https://i.ibb.co/JkSzywd/beautiful-view-magnificent-niagra-falls-captured-canada.jpg"
   }
 ]

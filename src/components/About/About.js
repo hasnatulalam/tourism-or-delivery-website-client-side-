@@ -1,51 +1,168 @@
+import { faMap } from '@fortawesome/free-regular-svg-icons';
+import { faAddressBook, faCoffee, faMapMarked, faMapMarkedAlt,faPhone,faPlane,faPlaneArrival,faUserAlt,sackDollar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Col, Row } from 'react-bootstrap';
-
+import { Card, CardGroup } from 'react-bootstrap';
+import './About.css'
 const About = () => {
     return (
-        <div className="bg-light text-dark">
-            <h1 className="mt-5 text-center">About Alvi Tourism </h1>
-
-
-            <div>
-                <h1 className="text-warning text-center">  Our Team</h1>
+        <div className="row m-5" id="about">
+        <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 ">
+            <Card>
+        
+<div className="img-body text-center " >
+            <Card.Img variant="top" src="https://i.ibb.co/4pzYnYN/about-1-768x247.jpg"style={{ height: '400px', width: '100%'}}  />
             </div>
-            <Row>
-                <Col>
-                    <div className="card text-dark shadow-lg ms-5 me-5">
-                        <img width="100%" height="400px" src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/132893962_2808477312729846_2899808976811298083_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHUevUfEzjRfyppRItFS3lZq96IukVzzFWr3oi6RXPMVRDylndg4nqvsvSUPIdBLlIo-DTvAxjwIXbQlN-BsyGQ&_nc_ohc=kMDSmpdI5S8AX81BnZA&tn=o1T-fTcGNwkRO_0R&_nc_ht=scontent.fcgp7-1.fna&oh=f6cf604621cdf31fd754b843d17a2832&oe=619275CF" alt="" />
-                        <h6>Ataul Hamid</h6>
-                        <p class="title">CEO & Founder</p>
-                        <p>He is founder of Alvi Tourism</p>
-                        <p>ataul@gmail.com</p>
-                        <Button variant="dark">Contact</Button>
-                    </div>
-                </Col>
-                <Col>
-                    <div className="card text-dark ms-5 me-5">
-                        <img width="100%" height="400px" src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-1/p200x200/222628486_3217620958485171_451502788482977506_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeFbPelGrdW0-NShGmqJwPfCk9zlaagSNGGT3OVpqBI0YQQ_tMTgFIL8jLRBfYLC_x0_1P5hzCsbdkbTvTcT3OCG&_nc_ohc=XWaDb_lM0wMAX9hZLur&_nc_ht=scontent.fcgp7-1.fna&oh=ed1e11b6cfac0d5cca1b33088e3bb196&oe=61939D78" alt="" />
-                        <h6>Khorshed Alam</h6>
-                        <p class="title">CEO & Founder</p>
-                        <p>He is co-founder of ALvi Tourism</p>
-                        <p>khorshed@gmail.com</p>
-                        <Button variant="dark">Contact</Button>
-                    </div>
-                </Col>
-                <Col>
-                    <div className="card text-dark ms-5 me-5">
-                        <img width="100%" height="400px" src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/248792222_2933023643626446_1178992367863151584_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=mfsaTvMSoCwAX-WPuGv&_nc_ht=scontent.fcgp7-1.fna&oh=c4f412b40e6b3105896cfbf7b15b1021&oe=618463CD" alt="" />
-                        <h6>Irfan Ullah Munna</h6>
-                        <p class="title">CEO & Founder</p>
-                        <p>He is founder of Alvi Tourism</p>
-                        <p>munna@gmail.com</p>
-                        <Button variant="dark">Contact</Button>
-                    </div>
-                </Col>
-            </Row>
-            <br />
-            <br />
-
+    {/* <Card.Body>
+       <Card.Title>Card title</Card.Title>
+      <Card.Text>
+        This is a longer card with supporting text below as a natural
+        lead-in to additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>  */}
+  </Card> 
+  <div className="row m-5">
+      <h2 className="text-center text-danger m-3 ">OUR STORY</h2>
+   <p className="text-primary">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa</p>
+  </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
+            <Card >
+        
+        <div className="img-body text-center  ">
+                        <Card.Img variant="top" src="https://i.ibb.co/fpsMn5j/about-2-768x247.png"style={{ height: '400px', width: '100%'}} />
+                        </div>
+               
+                  
+              </Card> 
+           
+            <div className="row m-3">
+                <h2 className="text-center text-danger m-3">OUR MISSION</h2>
+                <p className="text-primary"> Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.</p>
+            </div>
         </div>
+    </div>
+    <div className="row">
+        <h6 className="text-center text-danger"> WHY YOU CHOSE OUR TRAVEL </h6>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" ><i class="fa fa-y-combinator" aria-hidden="true"></i>
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faMapMarkedAlt} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+<p>Unique Destination</p>
+</Card.Title>
+
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" >
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faPhone} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+   <p>All Time Contact</p>
+</Card.Title>
+
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" >
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faPlane} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+   <p>Best Arival</p>
+</Card.Title>
+
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" >
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faUserAlt} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+<p>Quick Backup</p>
+</Card.Title>
+ 
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" >
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faCoffee} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+ <p >Exciting Travel</p>
+</Card.Title>
+
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    <div className=" icon col-lg-4 col-md-4 g-lg-2 p-3" >
+        <Card style={{ width: '18rem' ,height:'300px' }}>
+        <div className="foter-phone-icon text-center mt-2 ">
+                  <FontAwesomeIcon icon={faAddressBook} style={{height: '50px', width: '40px', color:'blue'}} />
+                </div> 
+
+<Card.Body>
+<Card.Title className="text-center">
+   <p>Quick Booking</p>
+</Card.Title>
+
+<Card.Text className="p-4">
+ <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+</Card.Text>
+
+</Card.Body>
+</Card>
+        </div>
+    </div>
+     </div> 
+     
+    
+     
+         
+
+     
+    
+    
     );
 };
 

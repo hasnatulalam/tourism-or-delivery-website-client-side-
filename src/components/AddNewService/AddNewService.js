@@ -2,11 +2,11 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const AddNewService = () => {
-    const { register, handleSubmit, reset } = useForm(); //https://scary-goblin-67655.herokuapp.com
+    const { register, handleSubmit, reset } = useForm(); 
 
     const onSubmit = data => {
-        // const url = `http://localhost:5000/addNewRoom`;
-        const url = `https://scary-goblin-67655.herokuapp.com/addNewRoom`;
+         const url = `https://fathomless-forest-21585.herokuapp.com/addNewRoom`;
+       
         fetch(url, {
             method: 'POST',
             headers: {
