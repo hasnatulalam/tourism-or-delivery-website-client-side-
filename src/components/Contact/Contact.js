@@ -4,11 +4,12 @@ import Card from 'react-bootstrap/Card'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Form'
 import Accordion from 'react-bootstrap/Accordion'
+import './Contact.css';
 
 const Contact = () => {
     return (
           
-   <div className="container ">
+   <div className="contain ">
                 
                 <div class="contact-image">
                     <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
