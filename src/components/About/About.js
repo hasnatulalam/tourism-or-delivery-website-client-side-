@@ -57,7 +57,7 @@ const About = () => {
 </Card.Title>
 
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">We Always Try to Booking the Place Unique Destination</p>
 </Card.Text>
 
 </Card.Body>
@@ -75,7 +75,7 @@ const About = () => {
 </Card.Title>
 
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">We Always Safe our tourist to connect mobile device</p>
 </Card.Text>
 
 </Card.Body>
@@ -93,7 +93,7 @@ const About = () => {
 </Card.Title>
 
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">We always provide best Plan journey to our client</p>
 </Card.Text>
 
 </Card.Body>
@@ -111,7 +111,7 @@ const About = () => {
 </Card.Title>
  
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">We always provide Quick Back Service</p>
 </Card.Text>
 
 </Card.Body>
@@ -129,7 +129,7 @@ const About = () => {
 </Card.Title>
 
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">Our selected place always awesome</p>
 </Card.Text>
 
 </Card.Body>
@@ -147,7 +147,7 @@ const About = () => {
 </Card.Title>
 
 <Card.Text className="p-4">
- <p className="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda?</p>
+ <p className="text-primary">we offering 50% discount all booking</p>
 </Card.Text>
 
 </Card.Body>
